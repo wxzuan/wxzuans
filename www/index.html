@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>赚赚乐</title>
+
+        <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="lib/ionic/js/ionic.bundle.js"></script>
+        <script data-main="js/main.js" src="js/require.js"></script>
+        <script src="cordova.js"></script>
+    </head>
+    <body>
+    <ion-header-bar class="bar bar-header bar-light">
+        <h1 class="title">赚赚乐</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-slide-box auto-play="true" does-continue="true" active-slide="myActiveSlide">
+            <ion-slide>
+                <img style="width:100%;height:100%;position:relative;" src="img/luobo1.png"/>
+            </ion-slide>
+            <ion-slide>
+                <img style="width:100%;height:100%;position:relative;" src="img/luobo2.png"/>
+            </ion-slide>
+            <ion-slide>
+                <img style="width:100%;height:100%;position:relative;" src="img/luobo3.png"/>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="card">
+            <p style="text-align:center;">
+            <ion-spinner icon="dots" class="spinner-dark"></ion-spinner>
+            </p>
+        </div>
+    </ion-content>
+    <div class="tabs tabs-icon-left">
+        <a class="tab-item">
+            <i class="icon ion-ios-heart-outline"></i>
+            推荐
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-ios-people-outline"></i>
+            服务
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-ios-help-outline"></i>
+            帮助
+        </a>
+        <a class="tab-item">
+            <i class="icon ion-ios-person-outline"></i>
+            会员
+        </a>
+    </div>
+</body>
+</html>
